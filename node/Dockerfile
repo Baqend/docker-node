@@ -1,6 +1,6 @@
 FROM ubuntu:xenial
 
-ARG NODE_VER=6.10.1
+ARG NODE_VER=6.13.0
 
 ENV DEBIAN_FRONTEND noninteractive
 
