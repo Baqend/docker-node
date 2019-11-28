@@ -5,7 +5,7 @@ ARG NODE_VER=10.17.0
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && \
-    apt-get upgrade && \
+    apt-get upgrade -y && \
     apt-get install -y build-essential python wget && \
     mkdir tmp/node && \
     wget https://nodejs.org/dist/v$NODE_VER/node-v$NODE_VER.tar.gz -P tmp/node && \
