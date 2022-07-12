@@ -1,6 +1,6 @@
 FROM ubuntu:bionic
 
-ARG NODE_VER=12.18.0
+ARG NODE_VER=
 
 ENV DEBIAN_FRONTEND noninteractive
 
