@@ -1,6 +1,6 @@
 FROM ubuntu:jammy
 
-ARG NODE_VER=16.16.0
+ARG NODE_VER=18.5.0
 
 ENV DEBIAN_FRONTEND noninteractive
 
